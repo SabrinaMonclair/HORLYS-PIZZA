@@ -13,10 +13,31 @@ body {
 header {
     width: 100%;
     height:500px;
-   background-image: url(../img/img-header.jpg);
+    background-color: rgb(37, 36, 41);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
- 
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+}
+div.container-fluid div.row div#place {
+    background-color: red;
+    height: 50px;
+}
+div.container-fluid div.row div#map {
+    background-color: green;
+    height: 50px;
+}
+
+
+
+
+
+.fa-pizza-slice:before {
+    transform: rotate(45deg);
+    margin-right: 10px;
 }
