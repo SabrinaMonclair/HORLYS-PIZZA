@@ -14,7 +14,7 @@
 <body data-spy="scroll" data-target="#navigation">
 
 <header class="d-flex justify-content-center align-items-center">
-
+<h1>Horly's Pizza</h1>
 </header>
 
 <nav id="navigation" class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger shadow p-3 mb-5">
@@ -64,46 +64,22 @@
 
 
 
-
-
-<section>
-
-    <div class="d-flex flex-row justify-content-around">
-        <div class="card" style="width: 18rem;">
-            <div class="card-header text-center"></div>
-            <img class="card-img-top" src="assets/img/img-header.jpg" alt="">
-            <div class="card-body">
-                
-                <div class="d-flex justify-content-center">
-                    <span class="badge badge-secondary justify-content-start">prix</span>
-                    <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                        data-content="And here's some amazing content. It's very engaging. Right?">+
-                        d'infos</button>
-                    <a href="#" class="btn btn-sm btn-primary">Commander</a>
-                </div>
-            </div>
-        </div>
-         
-</section>
-
-
-
-
-
-
 <footer>
 <div class="container-fluid">
 <div class="row">
-    <div class="col-xl-6 d-flex" id="place">
-        <div class="col-6">
+    <div class="col-xl-6 col-lg-12 d-flex align-items-center justify-content-center" id="place">
+        <div class="containertest flex-wrap d-flex">
+        <div class="col-xl-6 col-sm-12 d-flex p-0">
             <ul>
-                <li>Adresse : 43 rue augustin normand, 76600 Le Havre</li>
-                <li>Numéro Tel : 02 77 00 05 44</li>
+                <h2 class="h4"><i class="fas fa-map-signs"></i>Adresse</h2>
+                <li>43 rue augustin normand, 76600 Le Havre</li>
+                <h2 class="h4"><i class="fas fa-phone-alt"></i>Tel</h2>
+                <li> 02 77 00 05 44</li>
             </ul>
         </div>
-        <div class="col-6">
-            <ul>
-                <h2>Horaires :</h2>
+        <div class="col-xl-6 col-sm-12 p-0 d-flex align-items-center">
+            <ul id="time">
+                <h2 class="h4"><i class="fas fa-clock"></i>Horaires</h2>
                 <li>Lundi : Fermé</li>
                 <li> Mardi : 11h00-14h00 / 18h00-22h30</li>
                 <li>Mercredi : 11h00-14h10 / 18h00-22h30</li>
@@ -113,18 +89,13 @@
                 <li> Dimanche : 18h00-22h30</li>
             </ul>
         </div>
-       
     </div>
-    <div class="col-xl-6" id="map">
+    </div>
+    <div class="col-xl-6 col-lg-12" id="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d10366.618824088828!2d0.10199069184248576!3d49.49102916967068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d49.497399599999994!2d0.1202617!4m5!1s0x47e02ed8bb20a6f1%3A0x534fb1368d350cae!2s43%20Rue%20Augustin%20Normand%2C%2076600%20Le%20Havre!3m2!1d49.486450999999995!2d0.10287829999999999!5e0!3m2!1sfr!2sfr!4v1586955714153!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
 </div>
 </div>
-
-
-
-
-
 
 </footer>
 
@@ -138,7 +109,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-
 
 </body>
 </html>
