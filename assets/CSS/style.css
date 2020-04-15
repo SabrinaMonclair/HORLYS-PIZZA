@@ -24,13 +24,20 @@ header {
 footer {
     width: 100%;
 }
+div.container-fluid div.row div#place ul li {
+  list-style: none;
+}
 div.container-fluid div.row div#place {
-    background-color: red;
-    height: 50px;
+   padding: 0;
+    height: auto;
 }
 div.container-fluid div.row div#map {
-    background-color: green;
-    height: 50px;
+    padding: 0;
+    height: auto;
+}
+div.container-fluid div.row div#map iframe{
+  width: 100%;
+  margin:0;
 }
 
 
