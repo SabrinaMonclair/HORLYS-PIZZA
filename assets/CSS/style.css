@@ -27,8 +27,6 @@ body {
   
 }
 
-
-
 .card-img, .card-img-top {
   width:100%;
   height: auto;
@@ -43,12 +41,13 @@ body {
 .h2-cat {
   margin-bottom: 50px;
 }
-/* .h2-cat h2 {
-background-color: #d63447;
-color: white;
-padding: 20px;
+.colorboutoncard {
+  background-color: #21bf73;
+  color: white;
+  margin:0;
+}
 
-} */
+
 
 main {
   width: 100%;
@@ -70,16 +69,12 @@ section {
   padding: 100px 0px;
   background-color: white;
 }
-.colorboutoncard {
-  background-color: #21bf73;
-  color: white;
-  margin:0;
-}
+
 
 .title h2 {
-   background-color: #21bf73;
+   background-color: #d63447;
    color: white;
-   padding: 10px;
+   padding: 25px 0px;
    border-radius: 5px;
 }
 
@@ -88,12 +83,6 @@ footer {
     height: auto;
     background-color: #d63447;
     
-}
-#policie {
-  color: white;
-  margin-top: 40px;
-  text-decoration: underline;
-  display: block;
 }
 .privacy {
   background-color: #d63447;
@@ -117,22 +106,19 @@ footer {
   font-weight: 600;
   
 }
-/* div.container-fluid div.row div#place ul#time  {
-    border-left: solid 8px white;
-    
-  } */
+
 div.container-fluid div.row div#place ul li {
   list-style: none;
   
 }
 div.container-fluid div.row div#place ul h2  {
     list-style: none;
-    color: white;
+    color: #d63447;
     text-transform: uppercase;
   }
 div.container-fluid div.row div#place ul h2 i  {
     list-style: none;
-    color: white;
+    color: #d63447;
     margin-right: 10px;
    
   }
@@ -140,6 +126,17 @@ div.container-fluid div.row div#place {
    padding: 0;
     height: auto;
     
+}
+.containerbloc {
+ background-color: whitesmoke;
+ border-radius: 5px;
+ padding:20px;
+}
+#policie {
+  color: #d63447;
+  margin-top: 40px;
+  text-decoration: underline;
+  display: block;
 }
 div.container-fluid div.row div#place div.containertest {
     height: auto;
@@ -163,8 +160,20 @@ div.container-fluid div.row div#map iframe{
   .card-img, .card-img-top {
     height: auto;
   }
+  main {
+    background-color: white;
+  }
+  .containerbloc{
+    width:100%;
+  }
   div.container-fluid div.row div#place {
-    padding: 50px 0px; 
+    padding: 50px 50px; 
+  }
+  ul#time {
+    padding: 0;
+  }
+  ul#local {
+    padding: 0;
   }
 }
 @media screen and (max-width: 991px) {
