@@ -60,8 +60,8 @@
                                 <div class="d-flex justify-content-end mx-1">
                                     <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
                                         title="Pizza Margherita"
-                                        data-content="Tomate fraîche, mozzarella, olives, origan">+
-                                        d'infos</button>
+                                        data-content="Tomate fraîche, mozzarella, olives, origan">+d'infos</button>
+
                                     <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
                                         data-target="#margherita">Commander</button>
                                     <!-- MODAL -->
@@ -531,6 +531,11 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="popover"]').popover();
+            });
         </script>
 
     </body>
